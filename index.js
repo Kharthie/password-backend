@@ -141,8 +141,9 @@ app.get("/getUrls", async (req, res) => {
 
 
 app.get("/dashboard", authenticate, function (req, res) {
-  res.json({ totalUsers: 100 });
-});
+    res.json({ totalusers: 50 })
+})
+
 
 
 
